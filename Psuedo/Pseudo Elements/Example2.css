@@ -1,0 +1,18 @@
+h2::before{
+    content: 'Read this';
+    padding-left: 10px;
+    color: red;
+    
+}
+
+h3::before{
+    content: 'Read this';
+    padding: 10px ;
+    color: blueviolet;
+}
+
+p::after{
+    content: 'finally completed';
+    padding: 10px;
+    color: green;
+}
